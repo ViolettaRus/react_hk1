@@ -1,0 +1,88 @@
+/* CSS переменные для темы */
+:root {
+  --color-primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --color-primary-light: rgba(102, 126, 234, 0.1);
+  --color-primary-shadow: rgba(102, 126, 234, 0.3);
+  --color-primary-shadow-hover: rgba(102, 126, 234, 0.5);
+  
+  --color-text-primary: #1f2937;
+  --color-text-secondary: #374151;
+  --color-text-tertiary: #6b7280;
+  
+  --color-bg-white: #ffffff;
+  --color-bg-disabled: #f3f4f6;
+  --color-bg-error: #fef2f2;
+  --color-bg-success: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  
+  --color-border-default: #e5e7eb;
+  --color-border-error: #fecaca;
+  
+  --color-status-error: #dc2626;
+  --color-status-success: #ffffff;
+  
+  --spacing-xs: 8px;
+  --spacing-sm: 12px;
+  --spacing-md: 16px;
+  --spacing-lg: 20px;
+  --spacing-xl: 24px;
+  --spacing-xxl: 32px;
+  --spacing-xxxl: 40px;
+  --spacing-xxxxl: 48px;
+  
+  --border-radius-sm: 10px;
+  --border-radius-md: 12px;
+  --border-radius-lg: 16px;
+  --border-radius-xl: 20px;
+  --border-radius-xxl: 24px;
+  --border-radius-round: 50%;
+  
+  --shadow-sm: 0 4px 15px rgba(102, 126, 234, 0.3);
+  --shadow-md: 0 8px 20px rgba(102, 126, 234, 0.3);
+  --shadow-lg: 0 20px 60px rgba(0, 0, 0, 0.3);
+  --shadow-hover: 0 6px 20px rgba(102, 126, 234, 0.5);
+}
+
+/* Глобальные стили */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Анимации */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-10px); }
+  75% { transform: translateX(10px); }
+}
+
