@@ -263,3 +263,4 @@ npm run preview
 - Использовать современный редактор с поддержкой React (VS Code, WebStorm)
 - Установить расширения для React и ESLint
 - Использовать React DevTools для отладки
+
